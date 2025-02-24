@@ -1,0 +1,38 @@
+Documentation 
+(DDD - Domain-Driven Design)
+
+lib/
+│── core/                # Common utilities, error handling, use cases
+│   ├──colors/
+│        ├── errors.dart
+│   ├── errors/
+│   ├── usecases/
+│   ├── utils/
+│
+│── domain/              # Pure business logic (independent of Flutter)
+│   ├── entities/
+│   ├── repositories/
+│   ├── usecases/
+│
+│── application/         # State management (Bloc, Cubit, or Provider)
+│   ├── blocs/
+│   ├── events/
+│   ├── states/
+│
+│── infrastructure/      # Data sources and external dependencies
+│   ├── data_sources/
+│   ├── repositories/
+│   ├── models/
+│
+│── presentation/        # UI layer (Widgets, Pages, and Screens)  each folder of each page should have a widge folder.in main page should have widget bottomnav
+│   ├── pages/
+│          ├── pagesFolder(eachPage each folder)
+│                    ├── main_pages
+│   ├── widgets/
+│   ├── bloc/            # (optional) If using Bloc, state management is here
+│
+│── main.dart            # Entry point
+
+
+
+
