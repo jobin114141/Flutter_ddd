@@ -45,3 +45,5 @@ neede depencecys
     build_runner
     json_annotation
 
+!!!!
+flutter pub run build_runner watch --delete-conflicting-outputs
