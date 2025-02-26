@@ -33,6 +33,11 @@ lib/
 │
 │── main.dart            # Entry point
 
+
+
+        infrasture holds the back end works
+
+
 neede depencecys
     json_serializable
     flutter_bloc
