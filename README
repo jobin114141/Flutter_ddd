@@ -38,4 +38,5 @@ neede depencecys
     flutter_bloc
     freezed
     build_runner
+    json_annotation
 
