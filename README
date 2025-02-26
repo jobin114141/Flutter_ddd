@@ -33,6 +33,9 @@ lib/
 │
 │── main.dart            # Entry point
 
-
-
+neede depencecys
+    json_serializable
+    flutter_bloc
+    freezed
+    build_runner
 
